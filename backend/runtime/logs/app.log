@@ -1,0 +1,2153 @@
+2019-01-03 20:41:53 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-03 20:41:52 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ggcaiudj738qjui57eqpo2mia3'
+    '_csrf-frontend' => '91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '//admin'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ggcaiudj738qjui57eqpo2mia3; _csrf-frontend=91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '50256'
+    'REDIRECT_URL' => '/admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '//admin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546548112.504
+    'REQUEST_TIME' => 1546548112
+]
+2019-01-03 20:41:53 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+    in /var/www/portal/vendor/kouosl/portal-theme/layouts/backend-main.php:108
+    in /var/www/portal/vendor/kouosl/portal-site/controllers/backend/AuthController.php:118
+2019-01-03 20:41:53 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-03 20:41:53 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ggcaiudj738qjui57eqpo2mia3'
+    '_csrf-frontend' => '91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3\";}'
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '//admin'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ggcaiudj738qjui57eqpo2mia3; _csrf-frontend=91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3%22%3B%7D; advanced-backend=89hsitibta8vdm4jutk133a6u2'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '50256'
+    'REDIRECT_URL' => '/admin/site/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/site/auth/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546548113.038
+    'REQUEST_TIME' => 1546548113
+]
+2019-01-03 21:19:06 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+    in /var/www/portal/vendor/kouosl/portal-theme/layouts/backend-main.php:108
+    in /var/www/portal/vendor/kouosl/portal-site/controllers/backend/AuthController.php:95
+2019-01-03 21:19:06 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-03 21:19:04 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf-backend' => 'gd77jyn-ZdSC-Zh6gAryewF3X8YVY-Jb-m-ZZd09WbLu74PIZY8Sgfa22QnJX8EJdDAmn345pjWxV-khnEUy0Q=='
+    'LoginForm' => [
+        'username' => 'berilontass'
+        'password' => 'berilontas123'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ggcaiudj738qjui57eqpo2mia3'
+    '_csrf-frontend' => '91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3\";}'
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '250'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://portal.kouosl'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/site/auth/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ggcaiudj738qjui57eqpo2mia3; _csrf-frontend=91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3%22%3B%7D; advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '50547'
+    'REDIRECT_URL' => '/admin/site/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/site/auth/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546550343.67
+    'REQUEST_TIME' => 1546550343
+]
+2019-01-03 22:02:05 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-03 22:02:05 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-03 22:02:00 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ggcaiudj738qjui57eqpo2mia3'
+    '_csrf-frontend' => '91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3\";}'
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ggcaiudj738qjui57eqpo2mia3; _csrf-frontend=91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3%22%3B%7D; advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '50736'
+    'REDIRECT_URL' => '/admin/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546552916.67
+    'REQUEST_TIME' => 1546552916
+]
+2019-01-03 22:02:35 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-03 22:02:35 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-03 22:02:35 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'kouoslModule'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ggcaiudj738qjui57eqpo2mia3'
+    '_csrf-frontend' => '91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3\";}'
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ggcaiudj738qjui57eqpo2mia3; _csrf-frontend=91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3%22%3B%7D; advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '50756'
+    'REDIRECT_URL' => '/admin/gii/kouoslModule'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/kouoslModule'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546552954.996
+    'REQUEST_TIME' => 1546552954
+]
+2019-01-03 22:02:55 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-03 22:02:55 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-03 22:02:55 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'kouoslModule'
+]
+
+$_POST = [
+    '_csrf-backend' => 'yAU2-yjt9yqPK-quxAdefX-9IIRsShSzc2NGvgALmgqnNE68ZJyAf_tkq92NUm0PCvpZ3QcQUN04Wzb6QXPxaQ=='
+    'Generator' => [
+        'moduleID' => 'servis'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ggcaiudj738qjui57eqpo2mia3'
+    '_csrf-frontend' => '91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3\";}'
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '178'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://portal.kouosl'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/kouoslModule'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ggcaiudj738qjui57eqpo2mia3; _csrf-frontend=91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3%22%3B%7D; advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '50771'
+    'REDIRECT_URL' => '/admin/gii/kouoslModule'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/kouoslModule'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546552975.086
+    'REQUEST_TIME' => 1546552975
+]
+2019-01-03 22:03:19 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-03 22:03:19 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-03 22:03:19 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'kouoslModule'
+]
+
+$_POST = [
+    '_csrf-backend' => 'jm8JcJojn9VYsQfaibb3QovkuNt2shloZ3R3LNwMVv3hXnE31lLogCz-RqnA48Qw_qPBgh3oXQYsTAdonXQ9ng=='
+    'Generator' => [
+        'moduleID' => 'servis'
+        'template' => 'default'
+    ]
+    'answers' => [
+        'e9431e13fc87ed3f1307ad44d81f03b3' => '1'
+        'd734ad74b03ad783475a275e047b49aa' => '1'
+        '76cc12a58d5671d3a123ac05110d7570' => '1'
+        'a11e58c9d56c33a5e4f1f2db61be4180' => '1'
+        'fb2c6bbf18374ee604d516b43a992e3d' => '1'
+        'ad2aa72535823c948d8edb84189de370' => '1'
+        '9cb04303d584bfd32bcc477c795c85ea' => '1'
+        'a4ce2ea2a8fcb5927b1fd056c26300bd' => '1'
+        '032360713df5efd98dda71ead65d1924' => '1'
+        '40e5ee60ab40eec0af6f7ec7958c206e' => '1'
+        '73e5175e38a11443deece692852fd526' => '1'
+    ]
+    'generate' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ggcaiudj738qjui57eqpo2mia3'
+    '_csrf-frontend' => '91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3\";}'
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '707'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://portal.kouosl'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/kouoslModule'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ggcaiudj738qjui57eqpo2mia3; _csrf-frontend=91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3%22%3B%7D; advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '50782'
+    'REDIRECT_URL' => '/admin/gii/kouoslModule'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/kouoslModule'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546552999.192
+    'REQUEST_TIME' => 1546552999
+]
+2019-01-04 06:49:39 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 06:49:38 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ggcaiudj738qjui57eqpo2mia3'
+    '_csrf-frontend' => '91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3\";}'
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ggcaiudj738qjui57eqpo2mia3; _csrf-frontend=91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3%22%3B%7D; advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52438'
+    'REDIRECT_URL' => '/admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546584577.856
+    'REQUEST_TIME' => 1546584577
+]
+2019-01-04 06:49:40 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+    in /var/www/portal/vendor/kouosl/portal-theme/layouts/backend-main.php:108
+    in /var/www/portal/vendor/kouosl/portal-site/controllers/backend/AuthController.php:118
+2019-01-04 06:49:40 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 06:49:39 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ggcaiudj738qjui57eqpo2mia3'
+    '_csrf-frontend' => '91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3\";}'
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ggcaiudj738qjui57eqpo2mia3; _csrf-frontend=91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3%22%3B%7D; advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52438'
+    'REDIRECT_URL' => '/admin/site/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/site/auth/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546584579.674
+    'REQUEST_TIME' => 1546584579
+]
+2019-01-04 08:19:30 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+    in /var/www/portal/vendor/kouosl/portal-theme/layouts/backend-main.php:108
+    in /var/www/portal/vendor/kouosl/portal-site/controllers/backend/AuthController.php:118
+2019-01-04 08:19:30 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:19:26 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ggcaiudj738qjui57eqpo2mia3'
+    '_csrf-frontend' => '91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3\";}'
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ggcaiudj738qjui57eqpo2mia3; _csrf-frontend=91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3%22%3B%7D; advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52857'
+    'REDIRECT_URL' => '/admin/site/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/site/auth/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546589965.892
+    'REQUEST_TIME' => 1546589965
+]
+2019-01-04 08:39:17 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:39:17 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:39:15 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52951'
+    'REDIRECT_URL' => '/admin/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591155.81
+    'REQUEST_TIME' => 1546591155
+]
+2019-01-04 08:41:07 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:41:07 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:41:07 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'model'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52960'
+    'REDIRECT_URL' => '/admin/gii/model'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/model'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591267.06
+    'REQUEST_TIME' => 1546591267
+]
+2019-01-04 08:41:35 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:41:35 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:41:34 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf-backend' => 'vgOTQ2NRh7esNFeGXBR0G3y8qfeYm9BhNZWZRBiCVz3RMusELyDw4th7FvUVQUdpCfvQrvPBlA9-rekAWfo8Xg=='
+    'Generator' => [
+        'tableName' => 'servis'
+        'modelClass' => 'Servis'
+        'standardizeCapitals' => '0'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateRelationsFromCurrentSchema' => '1'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '812'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://portal.kouosl'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52964'
+    'REDIRECT_URL' => '/admin/gii/model'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/model'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591294.193
+    'REQUEST_TIME' => 1546591294
+]
+2019-01-04 08:41:39 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:41:39 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:41:39 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf-backend' => '2NrGPzJPs6EoAFjROHw0Gb4p2sgM1bcdGPdBk6ChmkC36754fj7E9FxPGaJxKQdry26jkWeP83NTzzHX4dnxIw=='
+    'Generator' => [
+        'tableName' => 'servis'
+        'modelClass' => 'Servis'
+        'standardizeCapitals' => '0'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateRelationsFromCurrentSchema' => '1'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'answers' => [
+        'c681c0a558fea13afc458df97bc9cc25' => '1'
+    ]
+    'generate' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '861'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://portal.kouosl'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52967'
+    'REDIRECT_URL' => '/admin/gii/model'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/model'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591299.074
+    'REQUEST_TIME' => 1546591299
+]
+2019-01-04 08:41:47 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:41:47 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:41:47 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52970'
+    'REDIRECT_URL' => '/admin/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/crud'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591307.296
+    'REQUEST_TIME' => 1546591307
+]
+2019-01-04 08:44:19 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:44:19 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:44:19 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf-backend' => 'EzqEzaKrmMe4CQpQVAMgOB1YypiIoluVshWHGDI46_t8C_yK7trvksxGSyMdVhNKaB-zweP4H_v5Lfdcc0CAmA=='
+    'Generator' => [
+        'modelClass' => 'backend\\models\\Servis'
+        'searchModelClass' => 'backend\\models\\ServisSearch'
+        'controllerClass' => 'backend\\controllers\\ServisController'
+        'viewPath' => '@backend/views/servis'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '0'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '572'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://portal.kouosl'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52980'
+    'REDIRECT_URL' => '/admin/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/crud'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591459.425
+    'REQUEST_TIME' => 1546591459
+]
+2019-01-04 08:46:08 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:46:08 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:46:08 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'model'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52983'
+    'REDIRECT_URL' => '/admin/gii/model'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/model'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591567.971
+    'REQUEST_TIME' => 1546591567
+]
+2019-01-04 08:46:23 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:46:23 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:46:23 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf-backend' => 'e31JYownaHilnUH2qa_RumiEqy2x1ELJjkzO8KRQC80UTDElwFYfLdHSAIXg-uLIHcPSdNqOBqfFdL605Shgrg=='
+    'Generator' => [
+        'tableName' => 'servis'
+        'modelClass' => 'Servis'
+        'standardizeCapitals' => '0'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateRelationsFromCurrentSchema' => '1'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '812'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://portal.kouosl'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52985'
+    'REDIRECT_URL' => '/admin/gii/model'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/model'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591583.397
+    'REQUEST_TIME' => 1546591583
+]
+2019-01-04 08:46:32 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:46:32 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:46:32 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf-backend' => 'SDTNGsVNKVah3Sac3uNHuPb1vQTHvWONvWkrd1eC65YnBbVdiTxeA9WSZ--XtnTKg7LEXaznJ-P2UVszFvqA9Q=='
+    'Generator' => [
+        'tableName' => 'servis'
+        'modelClass' => 'Servis'
+        'standardizeCapitals' => '0'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateRelationsFromCurrentSchema' => '1'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'generate' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '813'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://portal.kouosl'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52989'
+    'REDIRECT_URL' => '/admin/gii/model'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/model'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591592.596
+    'REQUEST_TIME' => 1546591592
+]
+2019-01-04 08:47:12 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:47:12 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:47:12 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf-backend' => 'vFmQwyClzzX1hS9oQzEva_Q-BxdwWdbGaC3OWODp8T3TaOiEbNS4YIHKbhsKZBwZgXl-ThsDkqgjFb4coZGaXg=='
+    'Generator' => [
+        'tableName' => 'servis'
+        'modelClass' => 'Servis'
+        'standardizeCapitals' => '0'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateRelationsFromCurrentSchema' => '1'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'generate' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '813'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://portal.kouosl'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52992'
+    'REDIRECT_URL' => '/admin/gii/model'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/model'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591632.042
+    'REQUEST_TIME' => 1546591632
+]
+2019-01-04 08:47:18 [192.168.83.1][-][89hsitibta8vdm4jutk133a6u2][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Code file not found: c681c0a558fea13afc458df97bc9cc25 in /var/www/portal/vendor/yiisoft/yii2-gii/src/controllers/DefaultController.php:89
+Stack trace:
+#0 [internal function]: yii\gii\controllers\DefaultController->actionPreview('model', 'c681c0a558fea13...')
+#1 /var/www/portal/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/portal/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/portal/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('preview', Array)
+#4 /var/www/portal/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii/default/pre...', Array)
+#5 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(kouosl\base\components\Request))
+#6 /var/www/portal/backend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2019-01-04 08:47:19 [192.168.83.1][-][89hsitibta8vdm4jutk133a6u2][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+    in /var/www/portal/vendor/kouosl/portal-theme/layouts/backend-main.php:108
+2019-01-04 08:47:19 [192.168.83.1][-][89hsitibta8vdm4jutk133a6u2][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:47:18 [192.168.83.1][-][89hsitibta8vdm4jutk133a6u2][info][application] $_GET = [
+    'id' => 'model'
+    'file' => 'c681c0a558fea13afc458df97bc9cc25'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '52994'
+    'REDIRECT_URL' => '/admin/gii/default/preview'
+    'REDIRECT_QUERY_STRING' => 'id=model&file=c681c0a558fea13afc458df97bc9cc25'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=model&file=c681c0a558fea13afc458df97bc9cc25'
+    'REQUEST_URI' => '/admin/gii/default/preview?id=model&file=c681c0a558fea13afc458df97bc9cc25'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591638.554
+    'REQUEST_TIME' => 1546591638
+]
+2019-01-04 08:50:31 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:50:31 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:50:30 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '53002'
+    'REDIRECT_URL' => '/admin/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/crud'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591830.714
+    'REQUEST_TIME' => 1546591830
+]
+2019-01-04 08:50:56 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:50:56 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:50:56 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf-backend' => 'cynvXZh1FS-243LExMlw0UecInhNILr424dexCLYSWccGJca1ARiesKsM7eNnEOjMttbISZ6_paQvy6AY6AiBA=='
+    'Generator' => [
+        'modelClass' => 'backend\\models\\Servis'
+        'searchModelClass' => 'backend\\models\\ServisSearch'
+        'controllerClass' => 'backend\\controllers\\ServisController'
+        'viewPath' => '@backend/views/servis'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '0'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '572'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://portal.kouosl'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '53005'
+    'REDIRECT_URL' => '/admin/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/crud'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591855.995
+    'REQUEST_TIME' => 1546591855
+]
+2019-01-04 08:52:48 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:52:48 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:52:47 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'model'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '53010'
+    'REDIRECT_URL' => '/admin/gii/model'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/model'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591967.693
+    'REQUEST_TIME' => 1546591967
+]
+2019-01-04 08:52:59 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:52:59 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:52:59 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf-backend' => 'cRWB9Dljtkpi9h968S5cN5NNZQufHGa82-Dssg7kFMweJPmzdRLBHxa5Xgm4e29F5gocUvRGItKQ2Jz2T5x_rw=='
+    'Generator' => [
+        'tableName' => 'servis_durak'
+        'modelClass' => 'ServisDurak'
+        'standardizeCapitals' => '0'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateRelationsFromCurrentSchema' => '1'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '823'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://portal.kouosl'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '53011'
+    'REDIRECT_URL' => '/admin/gii/model'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/model'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591979.157
+    'REQUEST_TIME' => 1546591979
+]
+2019-01-04 08:53:03 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:53:03 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:53:03 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf-backend' => 'zeivqTKXwzSns5ibzXdtntO4Z65Q3gMLRI66xL7VR8qi2dfufua0YdP82eiEIl7spv8e9zuER2UPtsqA_60sqQ=='
+    'Generator' => [
+        'tableName' => 'servis_durak'
+        'modelClass' => 'ServisDurak'
+        'standardizeCapitals' => '0'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateRelationsFromCurrentSchema' => '1'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'answers' => [
+        '764b79eb016422e87171c35860ac8360' => '1'
+    ]
+    'generate' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '872'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://portal.kouosl'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '53011'
+    'REDIRECT_URL' => '/admin/gii/model'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/model'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591983.305
+    'REQUEST_TIME' => 1546591983
+]
+2019-01-04 08:53:06 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:53:06 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:53:06 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '53011'
+    'REDIRECT_URL' => '/admin/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/crud'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546591986.083
+    'REQUEST_TIME' => 1546591986
+]
+2019-01-04 08:53:52 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:53:52 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:53:52 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'model'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '53016'
+    'REDIRECT_URL' => '/admin/gii/model'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/model'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546592032.416
+    'REQUEST_TIME' => 1546592032
+]
+2019-01-04 08:53:57 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:53:57 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:53:57 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '53018'
+    'REDIRECT_URL' => '/admin/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/crud'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546592037.343
+    'REQUEST_TIME' => 1546592037
+]
+2019-01-04 08:54:15 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:54:15 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 08:54:15 [192.168.83.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf-backend' => 'DAhcOyet8GnSW4t6p-JYtqgxFUbNFcIZnGS_JBbttxpjOSR8a9yHPKYUygnut2vE3XZsH6ZPhnfXXM9gV5XceQ=='
+    'Generator' => [
+        'modelClass' => 'backend\\models\\ServisDurak'
+        'searchModelClass' => 'backend\\models\\ServisDurakSearch'
+        'controllerClass' => 'backend\\controllers\\ServisDurakController'
+        'viewPath' => '@backend/views/servis_durak'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '0'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+    'advanced-frontend' => 'e821p058ofvmeb7dom6b761fg2'
+    '_identity-frontend' => '959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"0t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA\",2592000]\";}'
+    '_csrf-frontend' => 'f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"o3F5vtcg-2t3xh-mtStfhDveGg4shhVb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '593'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://portal.kouosl'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://portal.kouosl/admin/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D; advanced-frontend=e821p058ofvmeb7dom6b761fg2; _identity-frontend=959ccea2fe8fc1edcd1c8fd2ae3f9c79205bfebf0aa14dc08a26049597ae4c69a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220t_WyE4zbw-BYTNCM4_ghXyOsKyhMueA%22%2C2592000%5D%22%3B%7D; _csrf-frontend=f81fcbc043e59e52afd6f6bd7198505db1d202211a68e15b05fe47c81bedf10aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22o3F5vtcg-2t3xh-mtStfhDveGg4shhVb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '53023'
+    'REDIRECT_URL' => '/admin/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/gii/crud'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546592054.988
+    'REQUEST_TIME' => 1546592054
+]
+2019-01-04 10:34:33 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 10:34:22 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '//admin'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '53129'
+    'REDIRECT_URL' => '/admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '//admin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546598048.76
+    'REQUEST_TIME' => 1546598048
+]
+2019-01-04 10:34:44 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+    in /var/www/portal/vendor/kouosl/portal-theme/layouts/backend-main.php:108
+    in /var/www/portal/vendor/kouosl/portal-site/controllers/backend/AuthController.php:118
+2019-01-04 10:34:44 [192.168.83.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.83.1
+2019-01-04 10:34:39 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'mckff6ik9ifl7ptfnmtnvarhl7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '//admin'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=mckff6ik9ifl7ptfnmtnvarhl7'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/backend/web/index.php'
+    'REMOTE_PORT' => '53129'
+    'REDIRECT_URL' => '/admin/site/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/site/auth/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546598079.289
+    'REQUEST_TIME' => 1546598079
+]

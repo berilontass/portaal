@@ -1,0 +1,61 @@
+2019-01-03 20:42:11 [192.168.83.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /var/www/portal/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(kouosl\base\components\Request))
+#2 /var/www/portal/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/portal/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/portal/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(kouosl\base\components\Request))
+#1 /var/www/portal/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2019-01-03 20:42:10 [192.168.83.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ggcaiudj738qjui57eqpo2mia3'
+    '_csrf-frontend' => '91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3\";}'
+    'advanced-backend' => '89hsitibta8vdm4jutk133a6u2'
+    '_csrf-backend' => '3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'portal.kouosl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=ggcaiudj738qjui57eqpo2mia3; _csrf-frontend=91fad2291c52b90c335f29f6bac6cd88d9f62808d6701d5a9f26459e869bd55da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22TjZmIGUsNsVc1PwJ3_5zc9FAm2k0nrH3%22%3B%7D; advanced-backend=89hsitibta8vdm4jutk133a6u2; _csrf-backend=3e6a4f2bfbb1eb77bbc9bbcdd7d081f34906896a2a7d7b01f8541eb6920e83d6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22o1xGLqwUtOAsIU3ruGyYkZDnK8pDAxkc%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at portal.kouosl Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'portal.kouosl'
+    'SERVER_ADDR' => '192.168.83.137'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.83.1'
+    'DOCUMENT_ROOT' => '/var/www/portal'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/portal'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/portal/api/web/index.php'
+    'REMOTE_PORT' => '50272'
+    'REDIRECT_URL' => '/api/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1546548130.928
+    'REQUEST_TIME' => 1546548130
+]
